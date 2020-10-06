@@ -1,6 +1,7 @@
 from requests import get
 from time import sleep
 from bs4 import BeautifulSoup
+import pandoc
 
 def get_articles_from_category(url):
     # returns [[name, href]...]
